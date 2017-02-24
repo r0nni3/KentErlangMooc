@@ -7,6 +7,9 @@ mult(X,Y) ->
 double(X) ->
     mult(2,X).
 
+treble(A) ->
+    mult(2,A).
+
 area(A,B,C) ->
     S = (A+B+C)/2,
     math:sqrt(S*(S-A)*(S-B)*(S-C)).
@@ -14,5 +17,3 @@ area(A,B,C) ->
 square(A) ->
     mult(A,A).
 
-treble(A) ->
-    mult(square(A),A).
