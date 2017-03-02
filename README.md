@@ -7,4 +7,4 @@ Functional Programming In Erlang MOOC from University of Kent
 For the product, the base case is 1 because this is the neutral operator for the multiplication operation.
 
 ## Which of the two styles – direct recursion and tail recursion – do you find most natural? Why?
-It depends on the problem at hand, for these particular cases, direct recursion felt more natural. Because there where not complex desisions to make based on the data being procesed.
+It depends on the problem at hand, for these particular cases, direct recursion felt more natural. Because there where not complex decisions to make based on the data being processed.
